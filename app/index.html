@@ -1,0 +1,93 @@
+<html>
+
+<head>
+  <title>Voting on the Blockchain</title>
+  <link rel="stylesheet" href="css/app.css">
+  <script src="js/app.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h3>Welcome to the Elections!</h3>
+
+    <ul class="tabs">
+      <li class="tab-link current" data-tab="tab-1">Register (Person)</li>
+      <li class="tab-link" data-tab="tab-2">Register (Candidate)</li>
+      <li class="tab-link" data-tab="tab-3">Vote</li>
+      <li class="tab-link" data-tab="tab-4">Vote Count (Party)</li>
+      <li class="tab-link" data-tab="tab-5">Transaction History</li>
+      <li class="tab-link" data-tab="tab-6">Private Etherscan</li>
+    </ul>
+
+    <div id="tab-1" class="tab-content current">
+      <div>
+
+        <label for="name">First name</label>
+        <input type="text" id="name" name="firstname" placeholder="Thumamina">
+
+        <label for="country">ID NO:</label>
+        <input type="text" id="IDNO" placeholder="2002101290380">
+
+        <input type="submit" id="Register" value="Submit">
+
+      </div>
+    </div>
+    <div id="tab-2" class="tab-content">
+
+      <div>
+
+        <label for="fname">Party Name</label>
+        <input type="text" id="pname" placeholder="Not the ANC">
+
+        <input type="submit" id="RegisterP" value="Submit">
+
+      </div>
+
+    </div>
+    <div id="tab-3" class="tab-content">
+
+      <label>Party Name</label>
+      <input type="text" id="Partyname" placeholder="Not the ANC">
+
+      <label>ID NO:</label>
+      <input type="text" id="IDVote" placeholder="2002101290380">
+
+      <input type="submit" id="Vote" value="Vote">
+
+    </div>
+    <div id="tab-4" class="tab-content">
+      <input type="text" id="VCount" name="search" placeholder="Not the ANC">
+      <input type="submit" id="Count" value="Search">
+
+    </div>
+    <div id="tab-5" class="tab-content">
+      <table id="BlockchainSummary" style="width: 100%;">
+        <thead>
+          <tr>
+            <th>Transaction Hash</th>
+            <th>Block Number</th>
+            <th>Gas Used</th>
+            <th>Transaction Status</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+
+    </div>
+
+    <div id="tab-6" class="tab-content">
+      <label>Transaction Hash</label>
+      <input type="text" id="TransactionHash" name="search" placeholder="e.g. 0xf603805ed3da28e8a953fb906d3c5511d6c3eaf4ee2fcea0043acc55dc9a0cce">
+      <input type="submit" id="GetInfo"   value="Get">
+
+      <p id="output"></p>
+    </div>
+
+  </div><!-- container -->
+
+</body>
+
+
+
+</html>

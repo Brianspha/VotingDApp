@@ -1,0 +1,70 @@
+{
+  "0xe3550dd4b680ffb8aa7602baeb10b0eb2eefbaf554f2c42c47a914d9d2024cd3": {
+    "contracts": {
+      "0x51afc8cc75d61f34eafa80f55c9e88722e121dbdff63f924738b87e48a68aad0": {
+        "name": "VotingDApp",
+        "address": "0xEA78A19E5132323E0a3BBB2d047C23631B7Abc69"
+      },
+      "0xe69dfa3762b35ed92e84fd4b0a7e330a766f9ef039cf1b870f07a4e4d53e3764": {
+        "name": "VotingDApp",
+        "address": "0xce1Bc01A4C820F645F5522397df74Ff4eebfd216"
+      },
+      "0xc1e35c1921a020e352e9cefdbc390573c6a3fb0dc389a229655aeebf495973fc": {
+        "name": "VotingDApp",
+        "address": "0xd7310B35C9167eDa73d33d478b9efB922eDb7725"
+      },
+      "0xb7b531086e9674402b8749810632939381a259f4648921c03d23e55856f9f997": {
+        "name": "VotingDApp",
+        "address": "0xa49f77c360450d1f4cf4aDBDcd35Ea7874E98A7A"
+      },
+      "0xca0aa0030c249db876eef5d85a412163531185e9a2ca59446cbe5c3cd2314ac7": {
+        "name": "VotingDApp",
+        "address": "0xffF00AF0C397bc54f86ed83e3405185aC6fd263e"
+      },
+      "0xc4b47569859fa978867c57e5b28f37ef590f3c9ab3f75e471d780514e8ec2326": {
+        "name": "VotingDApp",
+        "address": "0x9F9c527F350503420CFa818b4B03759Ec40eFf81"
+      },
+      "0x18bebbc45b07b4efa11c5c1d83e0ea87f09f70c030b6798af25153df92069385": {
+        "name": "VotingDApp",
+        "address": "0x811B4FEeaD1486f96BCE3944c3751a719cD7Fc52"
+      },
+      "0x21a6895752667a42e982594a714cea8fc8db8247bdd1cd26eb0e59d85a346931": {
+        "name": "VotingDApp",
+        "address": "0x723B1F8eC868762B6D9e9a2a1a2629480d0f75ba"
+      },
+      "0x68ba1b2c2e7e24aab847869dc9ecf740602184d435c2e5670d3378f86dbd1e68": {
+        "name": "VotingDApp",
+        "address": "0x965a1077a628b16e03d8c13dF9329e37756C971C"
+      },
+      "0x5abb170ffe20a6e1e0cf995d827c5f5be2051c665bb1b7ae88bac71b683aab7e": {
+        "name": "VotingDApp",
+        "address": "0x1D24408E7dF33155178c045dD624f0416904152D"
+      },
+      "0x189f39a95c6519558a0fbdf43d88f5d3b0f76ec14ca5e19ec67c7487628fa5d6": {
+        "name": "VotingDApp",
+        "address": "0x32A6a3e04ca8863e6768EE7E1FAb2608bbE3a5C8"
+      },
+      "0x8de6dce902d4c1f802738856503eb6804c5abe6417861da93171e04fb8b62772": {
+        "name": "VotingDApp",
+        "address": "0xe76f97fd93072CB24F9B4C818eb2E9423a218DD7"
+      },
+      "0x5b6a893374f1f01038c75dd801260e8a06603219fe5253f758f1d1611d16e339": {
+        "name": "VotingDApp",
+        "address": "0xd66CAD49c70f813f3210f59dfBE8703D1c0ed94c"
+      },
+      "0x206fac9e748c5cff17fed02d5291e8626351c4284d99b70cf6fce638b2d92705": {
+        "name": "VotingDApp",
+        "address": "0x57F16FAbB50AbC65E067830a413E856050127BF9"
+      },
+      "0x21663c91ce75563a2a91a84ade84757000b2e8d9034442eac4e43c664e229de3": {
+        "name": "VotingDApp",
+        "address": "0xB182BeB90c4e5D1679Bea1EEAdeb498FA8661036"
+      },
+      "0xe52bb09d23784d7473a6d2228eb09e59bf81c64d21f56f2140dbb4db3c5df285": {
+        "name": "VotingDApp",
+        "address": "0xe108f6aA8f435c1704F1307607455A402718D1f0"
+      }
+    }
+  }
+}

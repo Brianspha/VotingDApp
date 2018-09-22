@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body {
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', serif;
+    line-height: 1.6
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+}
+
+ul.tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.tabs li {
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+ul.tabs li.current {
+    background: #ededed;
+    color: #222;
+}
+
+.tab-content {
+    display: none;
+    background: #ededed;
+    padding: 15px;
+}
+
+.tab-content.current {
+    display: inherit;
+}
+
+/* 1em = 10px @Dev form styling Start*/
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+li[for*='1']:before {
+    content: "\f040";
+}
+
+li[for*='2']:before {
+    content: "\f040";
+}
+
+li[for*='3']:before {
+    content: "\f044";
+}
+
+li[for*='4']:before {
+    content: '\f1a9';
+}
+
+li[for*='5']:before {
+    content: "\f080";
+}
+
+li:before {
+    font-family: fontawesome;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 650px) {
+    li {
+        font-size: 0;
+    }
+
+    li:before {
+        margin: 0;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    li {
+        padding: 15px;
+    }
+}
+
+/*@Dev form styling End */
+
+/*@Dev Search form styling start*/
+#search {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#search:focus {
+    width: 100%;
+}
+
+/*@Dev Search Styling End*/
+
+/*@Dev Transaction History Styling Start*/
+
+table {
+    background: #fff;
+}
+
+table,
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+    text-align: center;
+    margin: auto;
+    border: 1px solid #dedede;
+    padding: 1rem;
+    width: 50%;
+}
+
+.table {
+    display: table;
+    width: 50%;
+}
+
+.tr {
+    display: table-row;
+}
+
+.thead {
+    display: table-header-group
+}
+
+.tbody {
+    display: table-row-group
+}
+
+.tfoot {
+    display: table-footer-group
+}
+
+.col {
+    display: table-column
+}
+
+.colgroup {
+    display: table-column-group
+}
+
+.td,
+.th {
+    display: table-cell;
+    width: 50%;
+}
+
+.caption {
+    display: table-caption
+}
+
+.table,
+.thead,
+.tbody,
+.tfoot,
+.tr,
+.td,
+.th {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.table {
+    background: #fff;
+    margin: auto;
+    border: none;
+    padding: 0;
+    margin-bottom: 5rem;
+}
+
+.th {
+    font-weight: 700;
+    border: 1px solid #dedede;
+
+    &:nth-child(odd) {
+        border-right: none;
+    }
+}
+
+.td {
+    font-weight: 300;
+    border: 1px solid #dedede;
+    border-top: none;
+
+    &:nth-child(odd) {
+        border-right: none;
+    }
+}
+
+/*@Dev Transaction History Styling End*/
+
+/*@Dev output Styling start*/
+#output{
+    background: black;
+}
+/*@Dev output Styling end*/
