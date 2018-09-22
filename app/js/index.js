@@ -188,7 +188,6 @@ EmbarkJS.onReady(() => {
                     exit: 'animated bounceOutUp'
                 }
             });
-            alert.show();
             return toReturn;
         }
 
