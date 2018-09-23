@@ -1,1 +1,38 @@
 # VotingDApp
+# N.B everyone who already has the virtual os doesnt needs to follow steps 7 till the end
+
+
+To run follow these steps.
+
+pre-requisites
+-Geth https://geth.ethereum.org/downloads/
+-NodeJS https://nodejs.org/en/
+-NPM  https://www.npmjs.com/get-npm
+-VSCode https://code.visualstudio.com
+-Git https://git-scm.com/downloads 
+Although you can install node without issues i highly advise you install it using a Node version manager such as https://github.com/coreybutler/nvm-windows/releases
+
+Once all of the above have been installed follow these steps
+
+1. Open up a cmd window if your running windows 
+2. Type in npm install --global windows-build-tools
+3. close the cmd window once everything completes
+4. download the above project and extract go into the folder and right click on the mouse button whilst holding shift and select open command window here
+5. once the cmd window opens run the follolwing command npm install node-gyp -g
+6 run the following command  npm install -g embark
+7. for this particular project we need the 3 packages that the we use for the various things 
+ run the following commands
+ npm i jquery
+ npm i js-alert
+ npm i bootstrap-notify
+ 8. once all of these packages have been installed run the follwing command to start the local blockchain node
+  embark blockchain
+ 9. repeat step 4 but since you already have the project downloaded you can skip that part
+ once you have the cmd window open run the following command
+ embark run --nodashboard
+ 10. no on your browser type the following
+ localhost:8000 
+ and press enter 
+ 
+ 
+
