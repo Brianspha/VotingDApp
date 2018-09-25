@@ -21,7 +21,7 @@ Once all of the above have been installed follow these steps
 3. close the cmd window once everything completes
 4. download the above project and extract go into the folder and right click on the mouse button whilst holding shift and select open command window here
 5. once the cmd window opens run the follolwing command npm install node-gyp -g
-6 run the following command  npm install -g embark
+6. run the following command  npm install -g embark
 7. for this particular project we need the 3 packages that the we use for the various things 
  run the following commands
  npm i jquery
