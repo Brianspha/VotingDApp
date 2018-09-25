@@ -27,7 +27,7 @@ Once all of the above have been installed follow these steps
  npm i jquery
  npm i js-alert
  npm i bootstrap-notify
- 8. once all of these packages have been installed run the follwing command to start the local blockchain node
+ 8. once all of these packages have been installed run the follwing  on a new cmd window command to start the local blockchain node
   embark blockchain
  9. repeat step 4 but since you already have the project downloaded you can skip that part
  once you have the cmd window open run the following command
