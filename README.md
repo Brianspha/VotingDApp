@@ -1,7 +1,6 @@
 # VotingDApp
 # N.B everyone who already has the virtual os needs to follow steps 7 till the end
 # make sure you download the project first if you want to contribute to the project send me an email at g14m1190@campus.ru.ac.za
-# or a whatsApp 0625960761 ill then add you as a collaborator
 
 
 To run follow these steps.
