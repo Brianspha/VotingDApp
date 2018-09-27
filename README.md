@@ -22,7 +22,8 @@ Once all of the above have been installed follow these steps
 5. once the cmd window opens run the follolwing command npm install node-gyp -g
 6. run the following command  npm install -g embark
 7. for this particular project we need the 3 packages that the we use for the various things 
- run the following commands
+ run the following commands 
+8. npm install if this doesnt work run the below commands 
 8. npm i jquery
 9. npm i js-alert
 10. npm i bootstrap-notify
