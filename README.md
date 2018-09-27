@@ -23,15 +23,15 @@ Once all of the above have been installed follow these steps
 6. run the following command  npm install -g embark
 7. for this particular project we need the 3 packages that the we use for the various things 
  run the following commands
- 7.1. npm i jquery
- 7.2. npm i js-alert
- 7.3. npm i bootstrap-notify
- 8. once all of these packages have been installed run the follwing  on a new cmd window command to start the local blockchain node
+8. npm i jquery
+9. npm i js-alert
+10. npm i bootstrap-notify
+11. once all of these packages have been installed run the follwing  on a new cmd window command to start the local blockchain node
   embark blockchain
- 9. repeat step 4 but since you already have the project downloaded you can skip that part
+12. repeat step 4 but since you already have the project downloaded you can skip that part
  once you have the cmd window open run the following command
  embark run --nodashboard
- 10. no on your browser type the following
+13. no on your browser type the following
  localhost:8000 
  and press enter 
  
